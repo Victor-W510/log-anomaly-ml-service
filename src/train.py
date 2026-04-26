@@ -1,18 +1,21 @@
 import pandas as pd
 from sklearn.ensemble import IsolationForest
+import os
 import joblib
+from feature_engineering import feature_engineering
 
-# 1. Läs data
-data = pd.read_csv("train.csv")
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+file_path = os.path.join(BASE_DIR, "data", "training_data.json")
+model_path = os.path.join(BASE_DIR, "model", "model.pkl")
 
-# 2. Välj features
-X = data[["response_time"]]
+os.makedirs(os.path.dirname(model_path), exist_ok=True)
 
-# 3. Träna modell
-model = IsolationForest()
-model.fit(X)
+data = pd.read_json(file_path)
+x = feature_engineering(data)
 
-# 4. Spara modell
-joblib.dump(model, "model.pkl")
+#model = IsolationForest()
+#model.fit(x)
+#joblib.dump(model, model_path)
 
-print("Model trained!")
+
+print(x)
