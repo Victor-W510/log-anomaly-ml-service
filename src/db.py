@@ -16,7 +16,7 @@ def get_connection():
 def fetch_logs(connection, limit=100):
     with connection.cursor() as cursor:
         cursor.execute("""
-            SELECT id, level, message, response_time, endpoint
+            SELECT id, level, message, response_time
             FROM logs
             WHERE processed = 0
             LIMIT %s
