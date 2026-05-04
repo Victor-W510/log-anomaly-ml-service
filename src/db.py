@@ -2,11 +2,14 @@ import os
 from dotenv import load_dotenv
 import pymysql
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+ENV_PATH = os.path.join(BASE_DIR, ".env")
+load_dotenv(ENV_PATH)
 
 def get_connection():
     return pymysql.connect(
         host=os.getenv("DB_HOST"),
+        port=int (os.getenv("DB_PORT")),
         user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
         database=os.getenv("DB_NAME"),
@@ -16,7 +19,7 @@ def get_connection():
 def fetch_logs(connection, limit=100):
     with connection.cursor() as cursor:
         cursor.execute("""
-            SELECT id, level, message, response_time
+            SELECT id, level, message, responseTime
             FROM logs
             WHERE processed = 0
             LIMIT %s
