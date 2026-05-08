@@ -23,7 +23,7 @@ def send_overload_alert():
 
 def send_exception_alert(message):
     data = {
-        "content":  "⛔️ System error: " + message
+        "content":  "⛔️ Error in processing loop: "  + message
     }
     requests.post(WEBHOOK_URL, json=data)
 
