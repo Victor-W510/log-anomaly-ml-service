@@ -13,15 +13,18 @@ def map_thread(thread_name):
     else:
         return "other"
 
-def feature_engineering(df):
-    df = df.copy()
+def feature_engineering(logs):
+    
+    df = pd.DataFrame(logs)
 
     df["timestamp"] = pd.to_datetime(df["timestamp"], utc=False, errors="coerce")
-    df["hour"] = df["timestamp"].dt.hour
-
+    df["hour"] = df["timestamp"].dt.hour.fillna(0)
+    
     df["message_length"] = df["message"].astype(str).str.strip().apply(len)
 
     df["thread"] = df["thread"].apply(map_thread)
+
+    df["responseTime"] = pd.to_numeric(df["responseTime"],errors="coerce").fillna(0)
 
     level_dummies = pd.get_dummies(df["level"].str.strip())
     thread_dummies = pd.get_dummies(df["thread"])
@@ -29,8 +32,7 @@ def feature_engineering(df):
     features = pd.concat([
         level_dummies,
         thread_dummies,
-        df[[ "message_length", "hour"]] 
+        df[[ "message_length", "hour", "responseTime"]] 
     ], axis=1)
-
 
     return features
