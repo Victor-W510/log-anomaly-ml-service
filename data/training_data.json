@@ -1,0 +1,2993 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-05-08T20:29:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 120
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-05-08T20:30:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL CHANGE orderId=55 from=CREATED to=PAID",
+    "responseTime": 18
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-05-08T20:30:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 22
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-05-08T20:30:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 70
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-05-08T20:30:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=44",
+    "responseTime": 39
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-05-08T20:30:40.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL Error: 1054, SQLState: 28000",
+    "responseTime": 5
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-05-08T20:30:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 95
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-05-08T20:31:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=12",
+    "responseTime": 44
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-05-08T20:31:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 81
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-05-08T20:31:20.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 300
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-05-08T20:31:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL QUERY select user",
+    "responseTime": 12
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-05-08T20:31:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=499",
+    "responseTime": 66
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-05-08T20:31:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=77",
+    "responseTime": 55
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-05-08T20:32:00.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "NullPointerException in service layer",
+    "responseTime": 8
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-05-08T20:32:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 72
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-05-08T20:32:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=199",
+    "responseTime": 41
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-05-08T20:32:30.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
+    "responseTime": 210
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-05-08T20:32:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL UPDATE order status",
+    "responseTime": 25
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-05-08T20:32:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=91",
+    "responseTime": 48
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-05-08T20:33:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 33
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-05-08T20:33:10.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL deadlock detected",
+    "responseTime": 9
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-05-08T20:33:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=129",
+    "responseTime": 60
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-05-08T20:33:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=33",
+    "responseTime": 52
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-05-08T20:33:40.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_expired",
+    "responseTime": 180
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-05-08T20:33:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 88
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-05-08T20:34:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL INSERT new order",
+    "responseTime": 14
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-05-08T20:34:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=18",
+    "responseTime": 46
+  },
+  {
+    "id": 28,
+    "timestamp": "2026-05-08T20:34:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 77
+  },
+  {
+    "id": 29,
+    "timestamp": "2026-05-08T20:34:30.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "OutOfMemoryError heap space",
+    "responseTime": 3
+  },
+  {
+    "id": 30,
+    "timestamp": "2026-05-08T20:34:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=349",
+    "responseTime": 58
+  },
+  {
+    "id": 31,
+    "timestamp": "2026-05-08T20:34:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=64",
+    "responseTime": 61
+  },
+  {
+    "id": 32,
+    "timestamp": "2026-05-08T20:35:00.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
+    "responseTime": 260
+  },
+  {
+    "id": 33,
+    "timestamp": "2026-05-08T20:35:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL SELECT products",
+    "responseTime": 11
+  },
+  {
+    "id": 34,
+    "timestamp": "2026-05-08T20:35:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 74
+  },
+  {
+    "id": 35,
+    "timestamp": "2026-05-08T20:35:30.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL constraint violation",
+    "responseTime": 6
+  },
+  {
+    "id": 36,
+    "timestamp": "2026-05-08T20:35:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=599",
+    "responseTime": 67
+  },
+  {
+    "id": 37,
+    "timestamp": "2026-05-08T20:35:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=81",
+    "responseTime": 53
+  },
+  {
+    "id": 38,
+    "timestamp": "2026-05-08T20:36:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 31
+  },
+  {
+    "id": 39,
+    "timestamp": "2026-05-08T20:36:10.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 240
+  },
+  {
+    "id": 40,
+    "timestamp": "2026-05-08T20:36:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL UPDATE user profile",
+    "responseTime": 16
+  },
+  {
+    "id": 41,
+    "timestamp": "2026-05-08T20:36:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=10",
+    "responseTime": 49
+  },
+  {
+    "id": 42,
+    "timestamp": "2026-05-08T20:36:40.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL Error connection refused",
+    "responseTime": 4
+  },
+  {
+    "id": 43,
+    "timestamp": "2026-05-08T20:36:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=159",
+    "responseTime": 62
+  },
+  {
+    "id": 44,
+    "timestamp": "2026-05-08T20:37:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 79
+  },
+  {
+    "id": 45,
+    "timestamp": "2026-05-08T20:37:10.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
+    "responseTime": 220
+  },
+  {
+    "id": 46,
+    "timestamp": "2026-05-08T20:37:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL DELETE order",
+    "responseTime": 19
+  },
+  {
+    "id": 47,
+    "timestamp": "2026-05-08T20:37:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=27",
+    "responseTime": 57
+  },
+  {
+    "id": 48,
+    "timestamp": "2026-05-08T20:37:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 35
+  },
+  {
+    "id": 49,
+    "timestamp": "2026-05-08T20:37:50.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Database deadlock detected",
+    "responseTime": 7
+  },
+  {
+    "id": 50,
+    "timestamp": "2026-05-08T20:38:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 92
+  },
+  {
+    "id": 51,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:10.026479",
+    "response_time": 7,
+    "processed": "0x00"
+  },
+  {
+    "id": 52,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:20.103547",
+    "response_time": 97,
+    "processed": "0x00"
+  },
+  {
+    "id": 3,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=199",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:30.142881",
+    "response_time": 12,
+    "processed": "0x00"
+  },
+  {
+    "id": 4,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:40.201114",
+    "response_time": 84,
+    "processed": "0x00"
+  },
+  {
+    "id": 5,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=349",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:50.284003",
+    "response_time": 15,
+    "processed": "0x00"
+  },
+  {
+    "id": 56,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:00.377210",
+    "response_time": 91,
+    "processed": "0x00"
+  },
+  {
+    "id": 57,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=129",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:10.441902",
+    "response_time": 10,
+    "processed": "0x00"
+  },
+  {
+    "id": 58,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:20.509771",
+    "response_time": 88,
+    "processed": "0x00"
+  },
+  {
+    "id": 59,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=279",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:30.618004",
+    "response_time": 9,
+    "processed": "0x00"
+  },
+  {
+    "id": 60,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:40.702193",
+    "response_time": 93,
+    "processed": "0x00"
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-04-23T13:26:21.372+02:00",
+    "level": "INFO",
+    "pid": 24457,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 96
+  },
+  {
+    "id": 62,
+    "timestamp": "2026-04-23T13:26:31.372+02:00",
+    "level": "INFO",
+    "pid": 24457,
+    "thread": "http-nio-8080",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 24
+  },
+  {
+    "id": 63,
+    "timestamp": "2026-04-23T13:26:31.372+02:00",
+    "level": "INFO",
+    "pid": 24457,
+    "thread": "http-nio-8080",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 24
+  },
+  {
+    "id": 64,
+    "timestamp": "2026-04-23T13:26:41.372+02:00",
+    "level": "WARN",
+    "pid": 24457,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 450
+  },
+  {
+    "id": 65,
+    "timestamp": "2026-05-08 18:28:40.067323",
+    "level": "INFO",
+    "pid": 17719,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 66
+  },
+  {
+    "id": 66,
+    "timestamp": "2026-05-08T20:32:00.294864+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 70
+  },
+  {
+    "id": 67,
+    "timestamp": "2026-05-08T20:32:00.308039+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 68
+  },
+  {
+    "id": 68,
+    "timestamp": "2026-05-08T20:32:00.313758+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 73
+  },
+  {
+    "id": 69,
+    "timestamp": "2026-05-08T20:32:00.314511+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 83
+  },
+  {
+    "id": 70,
+    "timestamp": "2026-05-08T20:32:00.351930+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 71
+  },
+  {
+    "id": 71,
+    "timestamp": "2026-05-08T20:32:00.375107+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-10",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 92
+  },
+  {
+    "id": 72,
+    "timestamp": "2026-05-08T20:32:10.084137+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 79
+  },
+  {
+    "id": 73,
+    "timestamp": "2026-05-08T20:32:20.055489+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=44",
+    "responseTime": 50
+  },
+  {
+    "id": 74,
+    "timestamp": "2026-05-08T20:32:30.112901+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 210
+  },
+  {
+    "id": 75,
+    "timestamp": "2026-05-08T20:32:40.021114+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL CHANGE orderId=77 from=CREATED to=PAID",
+    "responseTime": 18
+  },
+  {
+    "id": 76,
+    "timestamp": "2026-05-08T20:32:50.091223+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 88
+  },
+  {
+    "id": 77,
+    "timestamp": "2026-05-08T20:33:00.044812+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL Error: 1054, SQLState: 28000",
+    "responseTime": 6
+  },
+  {
+    "id": 78,
+    "timestamp": "2026-05-08T20:33:10.066219+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=199",
+    "responseTime": 64
+  },
+  {
+    "id": 79,
+    "timestamp": "2026-05-08T20:33:20.078111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=12",
+    "responseTime": 42
+  },
+  {
+    "id": 80,
+    "timestamp": "2026-05-08T20:33:30.033221+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 190
+  },
+  {
+    "id": 81,
+    "timestamp": "2026-05-08T20:33:40.045771+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 31
+  },
+  {
+    "id": 82,
+    "timestamp": "2026-05-08T20:33:50.081112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=349",
+    "responseTime": 60
+  },
+  {
+    "id": 83,
+    "timestamp": "2026-05-08T20:34:00.019883+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-10",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=91",
+    "responseTime": 52
+  },
+  {
+    "id": 84,
+    "timestamp": "2026-05-08T20:34:10.099112+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "NullPointerException in service layer",
+    "responseTime": 5
+  },
+  {
+    "id": 85,
+    "timestamp": "2026-05-08T20:34:20.055001+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 90
+  },
+  {
+    "id": 86,
+    "timestamp": "2026-05-08T20:34:30.071113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL SELECT products",
+    "responseTime": 14
+  },
+  {
+    "id": 87,
+    "timestamp": "2026-05-08T20:34:40.091221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 75
+  },
+  {
+    "id": 88,
+    "timestamp": "2026-05-08T20:34:50.044441+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=insufficient_funds",
+    "responseTime": 220
+  },
+  {
+    "id": 89,
+    "timestamp": "2026-05-08T20:35:00.088112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=499",
+    "responseTime": 67
+  },
+  {
+    "id": 90,
+    "timestamp": "2026-05-08T20:35:10.061113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=64",
+    "responseTime": 55
+  },
+  {
+    "id": 91,
+    "timestamp": "2026-05-08T20:35:20.012113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL INSERT new order",
+    "responseTime": 16
+  },
+  {
+    "id": 92,
+    "timestamp": "2026-05-08T20:35:30.099221+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "OutOfMemoryError heap space",
+    "responseTime": 4
+  },
+  {
+    "id": 93,
+    "timestamp": "2026-05-08T20:35:40.011212+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=159",
+    "responseTime": 62
+  },
+  {
+    "id": 94,
+    "timestamp": "2026-05-08T20:35:50.044111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=18",
+    "responseTime": 47
+  },
+  {
+    "id": 95,
+    "timestamp": "2026-05-08T20:36:00.088112+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=network_issue",
+    "responseTime": 250
+  },
+  {
+    "id": 96,
+    "timestamp": "2026-05-08T20:36:10.044221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 78
+  },
+  {
+    "id": 97,
+    "timestamp": "2026-05-08T20:36:20.066111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 34
+  },
+  {
+    "id": 98,
+    "timestamp": "2026-05-08T20:36:30.091112+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL deadlock detected",
+    "responseTime": 7
+  },
+  {
+    "id": 99,
+    "timestamp": "2026-05-08T20:36:40.033221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 85
+  },
+  {
+    "id": 100,
+    "timestamp": "2026-05-08T20:36:50.055112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=299",
+    "responseTime": 69
+  },
+  {
+    "id": 101,
+    "timestamp": "2026-05-08T20:37:00.044221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=27",
+    "responseTime": 51
+  },
+  {
+    "id": 102,
+    "timestamp": "2026-05-08T20:37:10.011221+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 230
+  },
+  {
+    "id": 103,
+    "timestamp": "2026-05-08T20:37:20.088111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL DELETE order",
+    "responseTime": 19
+  },
+  {
+    "id": 104,
+    "timestamp": "2026-05-08T20:37:30.066221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 82
+  },
+  {
+    "id": 105,
+    "timestamp": "2026-05-08T20:37:40.011113+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Database connection refused",
+    "responseTime": 6
+  },
+  {
+    "id": 106,
+    "timestamp": "2026-05-08T20:37:50.044221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=399",
+    "responseTime": 63
+  },
+  {
+    "id": 107,
+    "timestamp": "2026-05-08T20:38:00.088112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=10",
+    "responseTime": 54
+  },
+  {
+    "id": 108,
+    "timestamp": "2026-05-08T20:38:10.033221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 29
+  },
+  {
+    "id": 109,
+    "timestamp": "2026-05-08T20:38:20.066111+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 240
+  },
+  {
+    "id": 110,
+    "timestamp": "2026-05-08T20:29:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 120
+  },
+  {
+    "id": 111,
+    "timestamp": "2026-05-08T20:30:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL CHANGE orderId=55 from=CREATED to=PAID",
+    "responseTime": 18
+  },
+  {
+    "id": 112,
+    "timestamp": "2026-05-08T20:30:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 22
+  },
+  {
+    "id": 113,
+    "timestamp": "2026-05-08T20:30:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 70
+  },
+  {
+    "id": 115,
+    "timestamp": "2026-05-08T20:30:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=44",
+    "responseTime": 39
+  },
+  {
+    "id": 116,
+    "timestamp": "2026-05-08T20:31:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=12",
+    "responseTime": 44
+  },
+  {
+    "id": 117,
+    "timestamp": "2026-05-08T20:31:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 81
+  },
+  {
+    "id": 118,
+    "timestamp": "2026-05-08T20:31:20.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 300
+  },
+  {
+    "id": 119,
+    "timestamp": "2026-05-08T20:31:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL QUERY select user",
+    "responseTime": 12
+  },
+  {
+    "id": 120,
+    "timestamp": "2026-05-08T20:31:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=499",
+    "responseTime": 66
+  },
+  {
+    "id": 121,
+    "timestamp": "2026-05-08T20:31:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=77",
+    "responseTime": 55
+  },
+  {
+    "id": 123,
+    "timestamp": "2026-05-08T20:32:00.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "NullPointerException in service layer",
+    "responseTime": 8
+  },
+  {
+    "id": 124,
+    "timestamp": "2026-05-08T20:32:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 72
+  },
+  {
+    "id": 125,
+    "timestamp": "2026-05-08T20:32:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=199",
+    "responseTime": 41
+  },
+  {
+    "id": 126,
+    "timestamp": "2026-05-08T20:32:30.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=insufficient_funds",
+    "responseTime": 210
+  },
+  {
+    "id": 127,
+    "timestamp": "2026-05-08T20:32:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL UPDATE order status",
+    "responseTime": 25
+  },
+  {
+    "id": 128,
+    "timestamp": "2026-05-08T20:32:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=91",
+    "responseTime": 48
+  },
+  {
+    "id": 130,
+    "timestamp": "2026-05-08T20:33:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 33
+  },
+  {
+    "id": 131,
+    "timestamp": "2026-05-08T20:30:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 95
+  },
+  {
+    "id": 132,
+    "timestamp": "2026-05-08T20:33:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=129",
+    "responseTime": 60
+  },
+  {
+    "id": 133,
+    "timestamp": "2026-05-08T20:33:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=33",
+    "responseTime": 52
+  },
+  {
+    "id": 134,
+    "timestamp": "2026-05-08T20:33:40.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_expired",
+    "responseTime": 180
+  },
+  {
+    "id": 135,
+    "timestamp": "2026-05-08T20:33:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 88
+  },
+  {
+    "id": 136,
+    "timestamp": "2026-05-08T20:34:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL INSERT new order",
+    "responseTime": 14
+  },
+  {
+    "id": 137,
+    "timestamp": "2026-05-08T20:34:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=18",
+    "responseTime": 46
+  },
+  {
+    "id": 138,
+    "timestamp": "2026-05-08T20:34:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 77
+  },
+  {
+    "id": 139,
+    "timestamp": "2026-05-08T20:34:30.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "OutOfMemoryError heap space",
+    "responseTime": 3
+  },
+  {
+    "id": 140,
+    "timestamp": "2026-05-08T20:34:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=349",
+    "responseTime": 58
+  },
+  {
+    "id": 141,
+    "timestamp": "2026-05-08T20:34:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=64",
+    "responseTime": 61
+  },
+  {
+    "id": 142,
+    "timestamp": "2026-05-08T20:35:00.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=network_issue",
+    "responseTime": 260
+  },
+  {
+    "id": 143,
+    "timestamp": "2026-05-08T20:35:10.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL SELECT products",
+    "responseTime": 11
+  },
+  {
+    "id": 144,
+    "timestamp": "2026-05-08T20:35:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 74
+  },
+  {
+    "id": 145,
+    "timestamp": "2026-05-08T20:35:30.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL constraint violation",
+    "responseTime": 6
+  },
+  {
+    "id": 146,
+    "timestamp": "2026-05-08T20:35:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=599",
+    "responseTime": 67
+  },
+  {
+    "id": 147,
+    "timestamp": "2026-05-08T20:35:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=81",
+    "responseTime": 53
+  },
+  {
+    "id": 148,
+    "timestamp": "2026-05-08T20:36:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 31
+  },
+  {
+    "id": 149,
+    "timestamp": "2026-05-08T20:36:10.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 240
+  },
+  {
+    "id": 150,
+    "timestamp": "2026-05-08T20:36:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL UPDATE user profile",
+    "responseTime": 16
+  },
+  {
+    "id": 151,
+    "timestamp": "2026-05-08T20:36:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=10",
+    "responseTime": 49
+  },
+  {
+    "id": 152,
+    "timestamp": "2026-05-08T20:36:40.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL Error connection refused",
+    "responseTime": 4
+  },
+  {
+    "id": 153,
+    "timestamp": "2026-05-08T20:36:50.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=159",
+    "responseTime": 62
+  },
+  {
+    "id": 154,
+    "timestamp": "2026-05-08T20:37:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 79
+  },
+  {
+    "id": 155,
+    "timestamp": "2026-05-08T20:37:10.059+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 220
+  },
+  {
+    "id": 156,
+    "timestamp": "2026-05-08T20:37:20.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "SQL DELETE order",
+    "responseTime": 19
+  },
+  {
+    "id": 157,
+    "timestamp": "2026-05-08T20:37:30.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User_login userId=27",
+    "responseTime": 57
+  },
+  {
+    "id": 158,
+    "timestamp": "2026-05-08T20:37:40.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 35
+  },
+  {
+    "id": 159,
+    "timestamp": "2026-05-08T20:37:50.059+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Database deadlock detected",
+    "responseTime": 7
+  },
+  {
+    "id": 160,
+    "timestamp": "2026-05-08T20:38:00.059+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 92
+  },
+  {
+    "id": 161,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:10.026479",
+    "response_time": 7,
+    "processed": "0x00"
+  },
+  {
+    "id": 162,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:20.103547",
+    "response_time": 97,
+    "processed": "0x00"
+  },
+  {
+    "id": 163,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=199",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:30.142881",
+    "response_time": 12,
+    "processed": "0x00"
+  },
+  {
+    "id": 164,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:40.201114",
+    "response_time": 84,
+    "processed": "0x00"
+  },
+  {
+    "id": 165,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=349",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:19:50.284003",
+    "response_time": 15,
+    "processed": "0x00"
+  },
+  {
+    "id": 166,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:00.377210",
+    "response_time": 91,
+    "processed": "0x00"
+  },
+  {
+    "id": 167,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=129",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:10.441902",
+    "response_time": 10,
+    "processed": "0x00"
+  },
+  {
+    "id": 168,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:20.509771",
+    "response_time": 88,
+    "processed": "0x00"
+  },
+  {
+    "id": 169,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=279",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:30.618004",
+    "response_time": 9,
+    "processed": "0x00"
+  },
+  {
+    "id": 170,
+    "level": "INFO",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "pid": 31296,
+    "thread": "scheduling-1",
+    "timestamp": "2026-05-08T20:20:40.702193",
+    "response_time": 93,
+    "processed": "0x00"
+  },
+  {
+    "id": 171,
+    "timestamp": "2026-04-23T13:26:21.372+02:00",
+    "level": "INFO",
+    "pid": 24457,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 96
+  },
+  {
+    "id": 172,
+    "timestamp": "2026-04-23T13:26:31.372+02:00",
+    "level": "INFO",
+    "pid": 24457,
+    "thread": "http-nio-8080",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 24
+  },
+  {
+    "id": 173,
+    "timestamp": "2026-04-23T13:26:31.372+02:00",
+    "level": "INFO",
+    "pid": 24457,
+    "thread": "http-nio-8080",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 24
+  },
+  {
+    "id": 174,
+    "timestamp": "2026-04-23T13:26:41.372+02:00",
+    "level": "WARN",
+    "pid": 24457,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 450
+  },
+  {
+    "id": 175,
+    "timestamp": "2026-05-08 18:28:40.067323",
+    "level": "INFO",
+    "pid": 17719,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 66
+  },
+  {
+    "id": 176,
+    "timestamp": "2026-05-08T20:32:00.294864+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 70
+  },
+  {
+    "id": 177,
+    "timestamp": "2026-05-08T20:32:00.308039+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 68
+  },
+  {
+    "id": 178,
+    "timestamp": "2026-05-08T20:32:00.313758+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 73
+  },
+  {
+    "id": 179,
+    "timestamp": "2026-05-08T20:32:00.314511+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 83
+  },
+  {
+    "id": 180,
+    "timestamp": "2026-05-08T20:32:00.351930+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 71
+  },
+  {
+    "id": 181,
+    "timestamp": "2026-05-08T20:32:00.375107+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-10",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=249",
+    "responseTime": 92
+  },
+  {
+    "id": 182,
+    "timestamp": "2026-05-08T20:32:10.084137+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 79
+  },
+  {
+    "id": 183,
+    "timestamp": "2026-05-08T20:32:20.055489+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=44",
+    "responseTime": 50
+  },
+  {
+    "id": 184,
+    "timestamp": "2026-05-08T20:32:30.112901+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
+    "responseTime": 210
+  },
+  {
+    "id": 185,
+    "timestamp": "2026-05-08T20:32:40.021114+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL CHANGE orderId=77 from=CREATED to=PAID",
+    "responseTime": 18
+  },
+  {
+    "id": 186,
+    "timestamp": "2026-05-08T20:32:50.091223+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 88
+  },
+  {
+    "id": 187,
+    "timestamp": "2026-05-08T20:33:00.044812+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL Error: 1054, SQLState: 28000",
+    "responseTime": 6
+  },
+  {
+    "id": 188,
+    "timestamp": "2026-05-08T20:33:10.066219+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=199",
+    "responseTime": 64
+  },
+  {
+    "id": 189,
+    "timestamp": "2026-05-08T20:33:20.078111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=12",
+    "responseTime": 42
+  },
+  {
+    "id": 190,
+    "timestamp": "2026-05-08T20:33:30.033221+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 190
+  },
+  {
+    "id": 191,
+    "timestamp": "2026-05-08T20:33:40.045771+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 31
+  },
+  {
+    "id": 192,
+    "timestamp": "2026-05-08T20:33:50.081112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=349",
+    "responseTime": 60
+  },
+  {
+    "id": 193,
+    "timestamp": "2026-05-08T20:34:00.019883+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-10",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=91",
+    "responseTime": 52
+  },
+  {
+    "id": 194,
+    "timestamp": "2026-05-08T20:34:10.099112+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "NullPointerException in service layer",
+    "responseTime": 5
+  },
+  {
+    "id": 195,
+    "timestamp": "2026-05-08T20:34:20.055001+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 90
+  },
+  {
+    "id": 196,
+    "timestamp": "2026-05-08T20:34:30.071113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL SELECT products",
+    "responseTime": 14
+  },
+  {
+    "id": 197,
+    "timestamp": "2026-05-08T20:34:40.091221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 75
+  },
+  {
+    "id": 198,
+    "timestamp": "2026-05-08T20:34:50.044441+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=insufficient_funds",
+    "responseTime": 220
+  },
+  {
+    "id": 199,
+    "timestamp": "2026-05-08T20:35:00.088112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=499",
+    "responseTime": 67
+  },
+  {
+    "id": 200,
+    "timestamp": "2026-05-08T20:35:10.061113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=64",
+    "responseTime": 55
+  },
+  {
+    "id": 201,
+    "timestamp": "2026-05-08T20:35:20.012113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL INSERT new order",
+    "responseTime": 16
+  },
+  {
+    "id": 202,
+    "timestamp": "2026-05-08T20:35:30.099221+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "OutOfMemoryError heap space",
+    "responseTime": 4
+  },
+  {
+    "id": 203,
+    "timestamp": "2026-05-08T20:35:40.011212+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=159",
+    "responseTime": 62
+  },
+  {
+    "id": 204,
+    "timestamp": "2026-05-08T20:35:50.044111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=18",
+    "responseTime": 47
+  },
+  {
+    "id": 205,
+    "timestamp": "2026-05-08T20:36:00.088112+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=network_issue",
+    "responseTime": 250
+  },
+  {
+    "id": 206,
+    "timestamp": "2026-05-08T20:36:10.044221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 78
+  },
+  {
+    "id": 207,
+    "timestamp": "2026-05-08T20:36:20.066111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 34
+  },
+  {
+    "id": 208,
+    "timestamp": "2026-05-08T20:36:30.091112+02:00",
+    "level": "ERROR",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL deadlock detected",
+    "responseTime": 7
+  },
+  {
+    "id": 209,
+    "timestamp": "2026-05-08T20:36:40.033221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "scheduling-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Starting service [Tomcat]",
+    "responseTime": 85
+  },
+  {
+    "id": 100,
+    "timestamp": "2026-05-08T20:36:50.055112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=299",
+    "responseTime": 69
+  },
+  {
+    "id": 210,
+    "timestamp": "2026-05-08T20:37:00.044221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=27",
+    "responseTime": 51
+  },
+  {
+    "id": 211,
+    "timestamp": "2026-05-08T20:37:10.011221+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=timeout",
+    "responseTime": 230
+  },
+  {
+    "id": 213,
+    "timestamp": "2026-05-08T20:37:20.088111+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "SQL DELETE order",
+    "responseTime": 19
+  },
+  {
+    "id": 214,
+    "timestamp": "2026-05-08T20:37:30.066221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "responseTime": 82
+  },
+  {
+    "id": 215,
+    "timestamp": "2026-05-08T20:37:40.011113+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=399",
+    "responseTime": 6
+  },
+  {
+    "id": 216,
+    "timestamp": "2026-05-08T20:37:50.044221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_succeeded amount=399",
+    "responseTime": 63
+  },
+  {
+    "id": 217,
+    "timestamp": "2026-05-08T20:38:00.088112+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "User_login userId=10",
+    "responseTime": 54
+  },
+  {
+    "id": 218,
+    "timestamp": "2026-05-08T20:38:10.033221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Cache refreshed",
+    "responseTime": 29
+  },
+  {
+    "id": 219,
+    "timestamp": "2026-05-08T20:38:20.066111+02:00",
+    "level": "WARN",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "org.example.loganomaly.service.LogGeneratorService",
+    "message": "Payment_failed reason=card_declined",
+    "responseTime": 240
+  },
+    
+  {
+  "id": 220,
+  "timestamp": "2026-05-08T20:39:00.010221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User_login userId=12",
+  "responseTime": 45
+  },
+  {
+  "id": 221,
+  "timestamp": "2026-05-08T20:39:10.012311+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL UPDATE order status=PAID",
+  "responseTime": 18
+  },
+  {
+  "id": 222,
+  "timestamp": "2026-05-08T20:39:20.019991+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=timeout",
+  "responseTime": 310
+  },
+  {
+  "id": 223,
+  "timestamp": "2026-05-08T20:39:30.044221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 61
+  },
+  {
+  "id": 224,
+  "timestamp": "2026-05-08T20:39:40.033111+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 22
+  },
+  {
+  "id": 225,
+  "timestamp": "2026-05-08T20:39:50.067221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
+  "responseTime": 275
+  },
+  {
+  "id": 226,
+  "timestamp": "2026-05-08T20:40:00.011221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL SELECT order details",
+  "responseTime": 14
+  },
+  {
+  "id": 227,
+  "timestamp": "2026-05-08T20:40:10.055221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User_login userId=88",
+  "responseTime": 39
+  },
+  {
+  "id": 228,
+  "timestamp": "2026-05-08T20:40:20.012221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=199",
+  "responseTime": 52
+  },
+  {
+  "id": 229,
+  "timestamp": "2026-05-08T20:40:30.066221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=network_error",
+  "responseTime": 420
+  },
+  {
+  "id": 230,
+  "timestamp": "2026-05-08T20:40:40.018221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 73
+  },
+  {
+  "id": 231,
+  "timestamp": "2026-05-08T20:40:50.014221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 21
+  },
+  {
+  "id": 232,
+  "timestamp": "2026-05-08T20:41:00.012221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL INSERT order created",
+  "responseTime": 19
+  },
+  {
+  "id": 233,
+  "timestamp": "2026-05-08T20:41:10.077221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=timeout",
+  "responseTime": 390
+  },
+  {
+  "id": 234,
+  "timestamp": "2026-05-08T20:41:20.011221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User_login userId=33",
+  "responseTime": 48
+  },
+  {
+  "id": 235,
+  "timestamp": "2026-05-08T20:41:30.021221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL UPDATE order status=SHIPPED",
+  "responseTime": 17
+  },
+  {
+  "id": 236,
+  "timestamp": "2026-05-08T20:41:40.033221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 66
+  },
+  {
+  "id": 237,
+  "timestamp": "2026-05-08T20:41:50.044221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=card_declined",
+  "responseTime": 280
+  },
+  {
+  "id": 238,
+  "timestamp": "2026-05-08T20:42:00.015221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 25
+  },
+  {
+  "id": 239,
+  "timestamp": "2026-05-08T20:42:10.011221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL SELECT user profile",
+  "responseTime": 16
+  },
+  {
+  "id": 240,
+  "timestamp": "2026-05-08T20:42:20.022221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=499",
+  "responseTime": 58
+  },
+  {
+  "id": 241,
+  "timestamp": "2026-05-08T20:42:30.033221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=timeout",
+  "responseTime": 410
+  },
+  {
+  "id": 242,
+  "timestamp": "2026-05-08T20:42:40.044221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 70
+  },
+  {
+  "id": 243,
+  "timestamp": "2026-05-08T20:42:50.011221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL DELETE order",
+  "responseTime": 20
+  },
+  {
+  "id": 244,
+  "timestamp": "2026-05-08T20:43:00.012221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 23
+  },
+  {
+  "id": 245,
+  "timestamp": "2026-05-08T20:43:10.013221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=network_error",
+  "responseTime": 360
+  },
+  {
+  "id": 246,
+  "timestamp": "2026-05-08T20:43:20.014221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User_login userId=77",
+  "responseTime": 44
+  },
+  {
+  "id": 247,
+  "timestamp": "2026-05-08T20:43:30.015221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "SQL UPDATE order status=PAID",
+  "responseTime": 15
+  },
+  {
+  "id": 248,
+  "timestamp": "2026-05-08T20:43:40.016221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=99",
+  "responseTime": 55
+  },
+  {
+  "id": 249,
+  "timestamp": "2026-05-08T20:43:50.017221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "Payment_failed reason=card_declined",
+  "responseTime": 295
+  },
+  {
+  "id": 250,
+  "timestamp": "2026-05-08T20:44:10.019221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT orders",
+  "responseTime": 12
+  },
+  {
+  "id": 251,
+  "timestamp": "2026-05-08T20:44:20.021221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=41",
+  "responseTime": 49
+  },
+  {
+  "id": 252,
+  "timestamp": "2026-05-08T20:44:30.023221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=timeout",
+  "responseTime": 280
+  },
+  {
+  "id": 253,
+  "timestamp": "2026-05-08T20:44:40.025221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 21
+  },
+  {
+  "id": 254,
+  "timestamp": "2026-05-08T20:44:50.027221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL UPDATE order status=PAID",
+  "responseTime": 16
+  },
+  {
+  "id": 255,
+  "timestamp": "2026-05-08T20:45:00.029221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 63
+  },
+  {
+  "id": 256,
+  "timestamp": "2026-05-08T20:45:10.031221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=network_issue",
+  "responseTime": 310
+  },
+  {
+  "id": 257,
+  "timestamp": "2026-05-08T20:45:20.033221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT users",
+  "responseTime": 10
+  },
+  {
+  "id": 258,
+  "timestamp": "2026-05-08T20:45:30.035221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=199",
+  "responseTime": 55
+  },
+  {
+  "id": 259,
+  "timestamp": "2026-05-08T20:45:40.037221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=77",
+  "responseTime": 47
+  },
+  {
+  "id": 260,
+  "timestamp": "2026-05-08T20:45:50.039221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL INSERT order created",
+  "responseTime": 18
+  },
+  {
+  "id": 261,
+  "timestamp": "2026-05-08T20:46:00.041221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 22
+  },
+  {
+  "id": 262,
+  "timestamp": "2026-05-08T20:46:10.043221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
+  "responseTime": 295
+  },
+  {
+  "id": 263,
+  "timestamp": "2026-05-08T20:46:20.045221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT products",
+  "responseTime": 13
+  },
+  {
+  "id": 264,
+  "timestamp": "2026-05-08T20:46:30.047221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 71
+  },
+  {
+  "id": 265,
+  "timestamp": "2026-05-08T20:46:40.049221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=99",
+  "responseTime": 58
+  },
+  {
+  "id": 266,
+  "timestamp": "2026-05-08T20:46:50.051221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=card_declined",
+  "responseTime": 320
+  },
+  {
+  "id": 267,
+  "timestamp": "2026-05-08T20:47:00.053221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL UPDATE order status=SHIPPED",
+  "responseTime": 15
+  },
+  {
+  "id": 268,
+  "timestamp": "2026-05-08T20:47:10.055221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=19",
+  "responseTime": 44
+  },
+  {
+  "id": 269,
+  "timestamp": "2026-05-08T20:47:20.057221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 20
+  },
+  {
+  "id": 270,
+  "timestamp": "2026-05-08T20:47:30.059221+02:00",
+  "level": "ERROR",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL constraint violation",
+  "responseTime": 8
+  },
+  {
+  "id": 271,
+  "timestamp": "2026-05-08T20:47:40.061221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT orders",
+  "responseTime": 11
+  },
+  {
+  "id": 272,
+  "timestamp": "2026-05-08T20:47:50.063221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 69
+  },
+  {
+  "id": 273,
+  "timestamp": "2026-05-08T20:48:00.065221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=timeout",
+  "responseTime": 340
+  },
+  {
+  "id": 274,
+  "timestamp": "2026-05-08T20:48:10.067221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL DELETE order",
+  "responseTime": 17
+  },
+  {
+  "id": 275,
+  "timestamp": "2026-05-08T20:48:20.069221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=249",
+  "responseTime": 60
+  },
+  {
+  "id": 276,
+  "timestamp": "2026-05-08T20:48:30.071221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=91",
+  "responseTime": 48
+  },
+  {
+  "id": 277,
+  "timestamp": "2026-05-08T20:48:40.073221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 23
+  },
+  {
+  "id": 278,
+  "timestamp": "2026-05-08T20:48:50.075221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=network_issue",
+  "responseTime": 310
+  },
+  {
+  "id": 279,
+  "timestamp": "2026-05-08T20:49:00.077221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT users",
+  "responseTime": 12
+  },
+  {
+  "id": 280,
+  "timestamp": "2026-05-08T20:49:10.079221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 66
+  },
+  {
+  "id": 281,
+  "timestamp": "2026-05-08T20:49:20.081221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=149",
+  "responseTime": 57
+  },
+  {
+  "id": 282,
+  "timestamp": "2026-05-08T20:49:30.083221+02:00",
+  "level": "ERROR",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Database connection failed",
+  "responseTime": 9
+  },
+  {
+  "id": 283,
+  "timestamp": "2026-05-08T20:49:40.085221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL UPDATE order status=PAID",
+  "responseTime": 15
+  },
+  {
+  "id": 284,
+  "timestamp": "2026-05-08T20:49:50.087221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=55",
+  "responseTime": 46
+  },
+  {
+  "id": 285,
+  "timestamp": "2026-05-08T20:50:00.089221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 21
+  },
+  {
+  "id": 286,
+  "timestamp": "2026-05-08T20:50:10.091221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT products",
+  "responseTime": 13
+  },
+  {
+  "id": 287,
+  "timestamp": "2026-05-08T20:50:20.093221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 70
+  },
+  {
+  "id": 288,
+  "timestamp": "2026-05-08T20:50:30.095221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=timeout",
+  "responseTime": 330
+  },
+  {
+  "id": 289,
+  "timestamp": "2026-05-08T20:50:40.097221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL DELETE order",
+  "responseTime": 18
+  },
+  {
+  "id": 290,
+  "timestamp": "2026-05-08T20:50:50.099221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_succeeded amount=399",
+  "responseTime": 59
+  },
+  {
+  "id": 291,
+  "timestamp": "2026-05-08T20:51:00.101221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=11",
+  "responseTime": 45
+  },
+  {
+  "id": 292,
+  "timestamp": "2026-05-08T20:51:10.103221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 20
+  },
+  {
+  "id": 293,
+  "timestamp": "2026-05-08T20:51:20.105221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL SELECT orders",
+  "responseTime": 12
+  },
+  {
+  "id": 294,
+  "timestamp": "2026-05-08T20:51:30.107221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 67
+  },
+  {
+  "id": 295,
+  "timestamp": "2026-05-08T20:51:40.109221+02:00",
+  "level": "WARN",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Payment_failed reason=card_declined",
+  "responseTime": 300
+  },
+  {
+  "id": 296,
+  "timestamp": "2026-05-08T20:51:50.111221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "SQL INSERT order created",
+  "responseTime": 19
+  },
+  {
+  "id": 297,
+  "timestamp": "2026-05-08T20:52:00.113221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User_login userId=66",
+  "responseTime": 50
+  },
+  {
+  "id": 298,
+  "timestamp": "2026-05-08T20:52:10.115221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "Cache refreshed",
+  "responseTime": 22
+  },
+  {
+  "id": 299,
+  "timestamp": "2026-05-08T20:52:20.117221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 65
+  }, 
+  {
+  "id": 300,
+  "timestamp": "2026-05-08T20:44:00.018221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "scheduling-1",
+  "logger": "org.example.loganomaly.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "responseTime": 68
+  }
+]

@@ -26,9 +26,6 @@ Thumbs.db
 .idea/
 
 # ML / data 
-data/
 models/
 *.pkl
 *.joblib
-
-# lägg till data och model!
