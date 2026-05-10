@@ -8,7 +8,7 @@ def map_thread(thread_name):
         return "http"
     elif "task" in thread_name or "pool" in thread_name:
         return "worker"
-    elif "main" in thread_name:
+    elif "main" in thread_name or "scheduling" in thread_name:
         return "main"
     else:
         return "other"

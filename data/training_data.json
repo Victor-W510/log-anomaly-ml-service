@@ -7,7 +7,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 120
+    "response_time": 120
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL CHANGE orderId=55 from=CREATED to=PAID",
-    "responseTime": 18
+    "response_time": 18
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 22
+    "response_time": 22
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 70
+    "response_time": 70
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=44",
-    "responseTime": 39
+    "response_time": 39
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL Error: 1054, SQLState: 28000",
-    "responseTime": 5
+    "response_time": 5
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 95
+    "response_time": 95
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=12",
-    "responseTime": 44
+    "response_time": 44
   },
   {
     "id": 9,
@@ -87,17 +87,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 81
+    "response_time": 81
   },
   {
     "id": 10,
     "timestamp": "2026-05-08T20:31:20.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 300
+    "response_time": 300
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL QUERY select user",
-    "responseTime": 12
+    "response_time": 12
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=499",
-    "responseTime": 66
+    "response_time": 66
   },
   {
     "id": 13,
@@ -127,17 +127,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=77",
-    "responseTime": 55
+    "response_time": 55
   },
   {
     "id": 14,
     "timestamp": "2026-05-08T20:32:00.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "NullPointerException in service layer",
-    "responseTime": 8
+    "message": "User_login userId=77",
+    "response_time": 48
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 72
+    "response_time": 72
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=199",
-    "responseTime": 41
+    "response_time": 41
   },
   {
     "id": 17,
@@ -166,8 +166,8 @@
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
-    "responseTime": 210
+    "message": "SQL UPDATE order status",
+    "response_time": 210
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL UPDATE order status",
-    "responseTime": 25
+    "response_time": 25
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=91",
-    "responseTime": 48
+    "response_time": 48
   },
   {
     "id": 20,
@@ -197,17 +197,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 33
+    "response_time": 33
   },
   {
     "id": 21,
     "timestamp": "2026-05-08T20:33:10.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "SQL deadlock detected",
-    "responseTime": 9
+    "message": "Payment_succeeded amount=111",
+    "response_time": 9
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=129",
-    "responseTime": 60
+    "response_time": 60
   },
   {
     "id": 23,
@@ -227,17 +227,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=33",
-    "responseTime": 52
+    "response_time": 52
   },
   {
     "id": 24,
     "timestamp": "2026-05-08T20:33:40.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=card_expired",
-    "responseTime": 180
+    "response_time": 180
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 88
+    "response_time": 88
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL INSERT new order",
-    "responseTime": 14
+    "response_time": 140
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=18",
-    "responseTime": 46
+    "response_time": 46
   },
   {
     "id": 28,
@@ -277,17 +277,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 77
+    "response_time": 77
   },
   {
     "id": 29,
     "timestamp": "2026-05-08T20:34:30.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "OutOfMemoryError heap space",
-    "responseTime": 3
+    "message": "User request processed successfully",
+    "response_time": 3
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=349",
-    "responseTime": 58
+    "response_time": 58
   },
   {
     "id": 31,
@@ -307,17 +307,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=64",
-    "responseTime": 61
+    "response_time": 61
   },
   {
     "id": 32,
     "timestamp": "2026-05-08T20:35:00.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
-    "responseTime": 260
+    "message": "SQL SELECT products",
+    "response_time": 260
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL SELECT products",
-    "responseTime": 11
+    "response_time": 110
   },
   {
     "id": 34,
@@ -337,17 +337,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 74
+    "response_time": 74
   },
   {
     "id": 35,
     "timestamp": "2026-05-08T20:35:30.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "SQL constraint violation",
-    "responseTime": 6
+    "message": "Payment_succeeded amount=599",
+    "response_time": 60
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=599",
-    "responseTime": 67
+    "response_time": 67
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=81",
-    "responseTime": 53
+    "response_time": 53
   },
   {
     "id": 38,
@@ -377,17 +377,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 31
+    "response_time": 31
   },
   {
     "id": 39,
     "timestamp": "2026-05-08T20:36:10.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 240
+    "response_time": 240
   },
   {
     "id": 40,
@@ -397,7 +397,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL UPDATE user profile",
-    "responseTime": 16
+    "response_time": 16
   },
   {
     "id": 41,
@@ -407,17 +407,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=10",
-    "responseTime": 49
+    "response_time": 49
   },
   {
     "id": 42,
     "timestamp": "2026-05-08T20:36:40.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "SQL Error connection refused",
-    "responseTime": 4
+    "message": "Payment_succeeded amount=5990",
+    "response_time": 140
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=159",
-    "responseTime": 62
+    "response_time": 62
   },
   {
     "id": 44,
@@ -437,17 +437,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 79
+    "response_time": 79
   },
   {
     "id": 45,
     "timestamp": "2026-05-08T20:37:10.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
-    "responseTime": 220
+    "message": "SQL DELETE order",
+    "response_time": 220
   },
   {
     "id": 46,
@@ -457,7 +457,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL DELETE order",
-    "responseTime": 19
+    "response_time": 19
   },
   {
     "id": 47,
@@ -467,7 +467,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=27",
-    "responseTime": 57
+    "response_time": 57
   },
   {
     "id": 48,
@@ -477,17 +477,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 35
+    "response_time": 35
   },
   {
     "id": 49,
     "timestamp": "2026-05-08T20:37:50.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "Database deadlock detected",
-    "responseTime": 7
+    "message": "Starting service [Tomcat]",
+    "response_time": 7
   },
   {
     "id": 50,
@@ -497,7 +497,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 92
+    "response_time": 92
   },
   {
     "id": 51,
@@ -507,8 +507,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:10.026479",
-    "response_time": 7,
-    "processed": "0x00"
+    "response_time": 7
   },
   {
     "id": 52,
@@ -518,8 +517,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:20.103547",
-    "response_time": 97,
-    "processed": "0x00"
+    "response_time": 97
   },
   {
     "id": 3,
@@ -529,8 +527,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:30.142881",
-    "response_time": 12,
-    "processed": "0x00"
+    "response_time": 12
   },
   {
     "id": 4,
@@ -540,8 +537,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:40.201114",
-    "response_time": 84,
-    "processed": "0x00"
+    "response_time": 84
   },
   {
     "id": 5,
@@ -551,8 +547,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:50.284003",
-    "response_time": 15,
-    "processed": "0x00"
+    "response_time": 15
   },
   {
     "id": 56,
@@ -562,8 +557,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:00.377210",
-    "response_time": 91,
-    "processed": "0x00"
+    "response_time": 91
   },
   {
     "id": 57,
@@ -573,8 +567,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:10.441902",
-    "response_time": 10,
-    "processed": "0x00"
+    "response_time": 10
   },
   {
     "id": 58,
@@ -584,8 +577,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:20.509771",
-    "response_time": 88,
-    "processed": "0x00"
+    "response_time": 88
   },
   {
     "id": 59,
@@ -595,8 +587,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:30.618004",
-    "response_time": 9,
-    "processed": "0x00"
+    "response_time": 9
   },
   {
     "id": 60,
@@ -606,8 +597,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:40.702193",
-    "response_time": 93,
-    "processed": "0x00"
+    "response_time": 93
   },
   {
     "id": 11,
@@ -617,27 +607,27 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 96
+    "response_time": 96
   },
   {
     "id": 62,
     "timestamp": "2026-04-23T13:26:31.372+02:00",
     "level": "INFO",
     "pid": 24457,
-    "thread": "http-nio-8080",
+    "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 24
+    "response_time": 24
   },
   {
     "id": 63,
     "timestamp": "2026-04-23T13:26:31.372+02:00",
     "level": "INFO",
     "pid": 24457,
-    "thread": "http-nio-8080",
+    "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 24
+    "response_time": 24
   },
   {
     "id": 64,
@@ -647,7 +637,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 450
+    "response_time": 450
   },
   {
     "id": 65,
@@ -657,7 +647,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 66
+    "response_time": 66
   },
   {
     "id": 66,
@@ -667,7 +657,7 @@
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 70
+    "response_time": 70
   },
   {
     "id": 67,
@@ -677,7 +667,7 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 68
+    "response_time": 68
   },
   {
     "id": 68,
@@ -687,17 +677,17 @@
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 73
+    "response_time": 73
   },
   {
     "id": 69,
     "timestamp": "2026-05-08T20:32:00.314511+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 83
+    "response_time": 83
   },
   {
     "id": 70,
@@ -707,7 +697,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 71
+    "response_time": 71
   },
   {
     "id": 71,
@@ -717,7 +707,7 @@
     "thread": "pool-2-thread-10",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 92
+    "response_time": 92
   },
   {
     "id": 72,
@@ -727,7 +717,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 79
+    "response_time": 79
   },
   {
     "id": 73,
@@ -737,7 +727,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=44",
-    "responseTime": 50
+    "response_time": 50
   },
   {
     "id": 74,
@@ -747,7 +737,7 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 210
+    "response_time": 210
   },
   {
     "id": 75,
@@ -757,7 +747,7 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL CHANGE orderId=77 from=CREATED to=PAID",
-    "responseTime": 18
+    "response_time": 18
   },
   {
     "id": 76,
@@ -767,17 +757,17 @@
     "thread": "pool-2-thread-5",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 88
+    "response_time": 88
   },
   {
     "id": 77,
     "timestamp": "2026-05-08T20:33:00.044812+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "SQL Error: 1054, SQLState: 28000",
-    "responseTime": 6
+    "message": "Payment_succeeded amount=19",
+    "response_time": 6
   },
   {
     "id": 78,
@@ -787,7 +777,7 @@
     "thread": "pool-2-thread-7",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=199",
-    "responseTime": 64
+    "response_time": 64
   },
   {
     "id": 79,
@@ -797,17 +787,17 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=12",
-    "responseTime": 42
+    "response_time": 42
   },
   {
     "id": 80,
     "timestamp": "2026-05-08T20:33:30.033221+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 190
+    "response_time": 190
   },
   {
     "id": 81,
@@ -817,7 +807,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 31
+    "response_time": 31
   },
   {
     "id": 82,
@@ -827,7 +817,7 @@
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=349",
-    "responseTime": 60
+    "response_time": 60
   },
   {
     "id": 83,
@@ -837,17 +827,17 @@
     "thread": "pool-2-thread-10",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=91",
-    "responseTime": 52
+    "response_time": 52
   },
   {
     "id": 84,
     "timestamp": "2026-05-08T20:34:10.099112+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "NullPointerException in service layer",
-    "responseTime": 5
+    "message": "Payment_succeeded amount=169",
+    "response_time": 5
   },
   {
     "id": 85,
@@ -857,7 +847,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 90
+    "response_time": 90
   },
   {
     "id": 86,
@@ -867,7 +857,7 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL SELECT products",
-    "responseTime": 14
+    "response_time": 14
   },
   {
     "id": 87,
@@ -877,17 +867,17 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 75
+    "response_time": 75
   },
   {
     "id": 88,
     "timestamp": "2026-05-08T20:34:50.044441+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=insufficient_funds",
-    "responseTime": 220
+    "response_time": 220
   },
   {
     "id": 89,
@@ -897,7 +887,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=499",
-    "responseTime": 67
+    "response_time": 67
   },
   {
     "id": 90,
@@ -907,7 +897,7 @@
     "thread": "pool-2-thread-7",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=64",
-    "responseTime": 55
+    "response_time": 55
   },
   {
     "id": 91,
@@ -917,17 +907,17 @@
     "thread": "pool-2-thread-5",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL INSERT new order",
-    "responseTime": 16
+    "response_time": 16
   },
   {
     "id": 92,
     "timestamp": "2026-05-08T20:35:30.099221+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "OutOfMemoryError heap space",
-    "responseTime": 4
+    "response_time": 4
   },
   {
     "id": 93,
@@ -937,7 +927,7 @@
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=159",
-    "responseTime": 62
+    "response_time": 62
   },
   {
     "id": 94,
@@ -947,17 +937,17 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=18",
-    "responseTime": 47
+    "response_time": 47
   },
   {
     "id": 95,
     "timestamp": "2026-05-08T20:36:00.088112+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=network_issue",
-    "responseTime": 250
+    "response_time": 250
   },
   {
     "id": 96,
@@ -967,7 +957,7 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 78
+    "response_time": 78
   },
   {
     "id": 97,
@@ -977,17 +967,17 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 34
+    "response_time": 34
   },
   {
     "id": 98,
     "timestamp": "2026-05-08T20:36:30.091112+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "SQL deadlock detected",
-    "responseTime": 7
+    "message": "Payment_succeeded amount=199",
+    "response_time": 7
   },
   {
     "id": 99,
@@ -997,7 +987,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 85
+    "response_time": 85
   },
   {
     "id": 100,
@@ -1007,7 +997,7 @@
     "thread": "pool-2-thread-7",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=299",
-    "responseTime": 69
+    "response_time": 69
   },
   {
     "id": 101,
@@ -1017,17 +1007,17 @@
     "thread": "pool-2-thread-5",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=27",
-    "responseTime": 51
+    "response_time": 51
   },
   {
     "id": 102,
     "timestamp": "2026-05-08T20:37:10.011221+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 230
+    "response_time": 230
   },
   {
     "id": 103,
@@ -1037,7 +1027,7 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL DELETE order",
-    "responseTime": 19
+    "response_time": 19
   },
   {
     "id": 104,
@@ -1047,17 +1037,17 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 82
+    "response_time": 82
   },
   {
     "id": 105,
     "timestamp": "2026-05-08T20:37:40.011113+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Database connection refused",
-    "responseTime": 6
+    "response_time": 6
   },
   {
     "id": 106,
@@ -1067,7 +1057,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=399",
-    "responseTime": 63
+    "response_time": 63
   },
   {
     "id": 107,
@@ -1077,7 +1067,7 @@
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=10",
-    "responseTime": 54
+    "response_time": 54
   },
   {
     "id": 108,
@@ -1087,17 +1077,17 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 29
+    "response_time": 29
   },
   {
     "id": 109,
     "timestamp": "2026-05-08T20:38:20.066111+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 240
+    "response_time": 240
   },
   {
     "id": 110,
@@ -1107,7 +1097,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 120
+    "response_time": 120
   },
   {
     "id": 111,
@@ -1117,7 +1107,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL CHANGE orderId=55 from=CREATED to=PAID",
-    "responseTime": 18
+    "response_time": 18
   },
   {
     "id": 112,
@@ -1127,7 +1117,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 22
+    "response_time": 22
   },
   {
     "id": 113,
@@ -1137,7 +1127,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 70
+    "response_time": 70
   },
   {
     "id": 115,
@@ -1147,7 +1137,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=44",
-    "responseTime": 39
+    "response_time": 39
   },
   {
     "id": 116,
@@ -1157,7 +1147,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=12",
-    "responseTime": 44
+    "response_time": 44
   },
   {
     "id": 117,
@@ -1167,17 +1157,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 81
+    "response_time": 81
   },
   {
     "id": 118,
     "timestamp": "2026-05-08T20:31:20.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 300
+    "response_time": 300
   },
   {
     "id": 119,
@@ -1187,7 +1177,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL QUERY select user",
-    "responseTime": 12
+    "response_time": 12
   },
   {
     "id": 120,
@@ -1197,7 +1187,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=499",
-    "responseTime": 66
+    "response_time": 66
   },
   {
     "id": 121,
@@ -1207,17 +1197,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=77",
-    "responseTime": 55
+    "response_time": 55
   },
   {
     "id": 123,
     "timestamp": "2026-05-08T20:32:00.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "NullPointerException in service layer",
-    "responseTime": 8
+    "message": "Payment_succeeded amount=199",
+    "response_time": 8
   },
   {
     "id": 124,
@@ -1227,7 +1217,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 72
+    "response_time": 72
   },
   {
     "id": 125,
@@ -1237,17 +1227,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=199",
-    "responseTime": 41
+    "response_time": 41
   },
   {
     "id": 126,
     "timestamp": "2026-05-08T20:32:30.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=insufficient_funds",
-    "responseTime": 210
+    "response_time": 210
   },
   {
     "id": 127,
@@ -1257,7 +1247,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL UPDATE order status",
-    "responseTime": 25
+    "response_time": 25
   },
   {
     "id": 128,
@@ -1267,7 +1257,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=91",
-    "responseTime": 48
+    "response_time": 48
   },
   {
     "id": 130,
@@ -1277,7 +1267,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 33
+    "response_time": 33
   },
   {
     "id": 131,
@@ -1287,7 +1277,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 95
+    "response_time": 95
   },
   {
     "id": 132,
@@ -1297,7 +1287,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=129",
-    "responseTime": 60
+    "response_time": 60
   },
   {
     "id": 133,
@@ -1307,7 +1297,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=33",
-    "responseTime": 52
+    "response_time": 52
   },
   {
     "id": 134,
@@ -1317,7 +1307,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=card_expired",
-    "responseTime": 180
+    "response_time": 180
   },
   {
     "id": 135,
@@ -1327,7 +1317,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 88
+    "response_time": 88
   },
   {
     "id": 136,
@@ -1337,7 +1327,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL INSERT new order",
-    "responseTime": 14
+    "response_time": 14
   },
   {
     "id": 137,
@@ -1347,7 +1337,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=18",
-    "responseTime": 46
+    "response_time": 46
   },
   {
     "id": 138,
@@ -1357,17 +1347,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 77
+    "response_time": 77
   },
   {
     "id": 139,
     "timestamp": "2026-05-08T20:34:30.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "OutOfMemoryError heap space",
-    "responseTime": 3
+    "message": "User_login userId=777",
+    "response_time": 3
   },
   {
     "id": 140,
@@ -1377,7 +1367,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=349",
-    "responseTime": 58
+    "response_time": 58
   },
   {
     "id": 141,
@@ -1387,17 +1377,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=64",
-    "responseTime": 61
+    "response_time": 61
   },
   {
     "id": 142,
     "timestamp": "2026-05-08T20:35:00.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=network_issue",
-    "responseTime": 260
+    "response_time": 260
   },
   {
     "id": 143,
@@ -1407,7 +1397,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL SELECT products",
-    "responseTime": 11
+    "response_time": 11
   },
   {
     "id": 144,
@@ -1417,17 +1407,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 74
+    "response_time": 74
   },
   {
     "id": 145,
     "timestamp": "2026-05-08T20:35:30.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
-    "message": "SQL constraint violation",
-    "responseTime": 6
+    "message": "User_login userId=77",
+    "response_time": 6
   },
   {
     "id": 146,
@@ -1437,7 +1427,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=599",
-    "responseTime": 67
+    "response_time": 67
   },
   {
     "id": 147,
@@ -1447,7 +1437,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=81",
-    "responseTime": 53
+    "response_time": 53
   },
   {
     "id": 148,
@@ -1457,7 +1447,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 31
+    "response_time": 31
   },
   {
     "id": 149,
@@ -1467,7 +1457,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 240
+    "response_time": 240
   },
   {
     "id": 150,
@@ -1477,7 +1467,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL UPDATE user profile",
-    "responseTime": 16
+    "response_time": 16
   },
   {
     "id": 151,
@@ -1487,17 +1477,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=10",
-    "responseTime": 49
+    "response_time": 49
   },
   {
     "id": 152,
     "timestamp": "2026-05-08T20:36:40.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL Error connection refused",
-    "responseTime": 4
+    "response_time": 4
   },
   {
     "id": 153,
@@ -1507,7 +1497,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_succeeded amount=159",
-    "responseTime": 62
+    "response_time": 62
   },
   {
     "id": 154,
@@ -1517,17 +1507,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 79
+    "response_time": 79
   },
   {
     "id": 155,
     "timestamp": "2026-05-08T20:37:10.059+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 220
+    "response_time": 220
   },
   {
     "id": 156,
@@ -1537,7 +1527,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "SQL DELETE order",
-    "responseTime": 19
+    "response_time": 19
   },
   {
     "id": 157,
@@ -1547,7 +1537,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "User_login userId=27",
-    "responseTime": 57
+    "response_time": 57
   },
   {
     "id": 158,
@@ -1557,17 +1547,17 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 35
+    "response_time": 35
   },
   {
     "id": 159,
     "timestamp": "2026-05-08T20:37:50.059+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Database deadlock detected",
-    "responseTime": 7
+    "response_time": 7
   },
   {
     "id": 160,
@@ -1577,7 +1567,7 @@
     "thread": "scheduling-1",
     "logger": "o.e.l.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 92
+    "response_time": 92
   },
   {
     "id": 161,
@@ -1587,8 +1577,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:10.026479",
-    "response_time": 7,
-    "processed": "0x00"
+    "response_time": 7
   },
   {
     "id": 162,
@@ -1598,8 +1587,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:20.103547",
-    "response_time": 97,
-    "processed": "0x00"
+    "response_time": 97
   },
   {
     "id": 163,
@@ -1609,8 +1597,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:30.142881",
-    "response_time": 12,
-    "processed": "0x00"
+    "response_time": 12
   },
   {
     "id": 164,
@@ -1620,8 +1607,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:40.201114",
-    "response_time": 84,
-    "processed": "0x00"
+    "response_time": 84
   },
   {
     "id": 165,
@@ -1631,8 +1617,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:19:50.284003",
-    "response_time": 15,
-    "processed": "0x00"
+    "response_time": 15
   },
   {
     "id": 166,
@@ -1642,8 +1627,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:00.377210",
-    "response_time": 91,
-    "processed": "0x00"
+    "response_time": 91
   },
   {
     "id": 167,
@@ -1653,8 +1637,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:10.441902",
-    "response_time": 10,
-    "processed": "0x00"
+    "response_time": 10
   },
   {
     "id": 168,
@@ -1664,8 +1647,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:20.509771",
-    "response_time": 88,
-    "processed": "0x00"
+    "response_time": 88
   },
   {
     "id": 169,
@@ -1675,8 +1657,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:30.618004",
-    "response_time": 9,
-    "processed": "0x00"
+    "response_time": 9
   },
   {
     "id": 170,
@@ -1686,8 +1667,7 @@
     "pid": 31296,
     "thread": "scheduling-1",
     "timestamp": "2026-05-08T20:20:40.702193",
-    "response_time": 93,
-    "processed": "0x00"
+    "response_time": 93
   },
   {
     "id": 171,
@@ -1697,27 +1677,27 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 96
+    "response_time": 96
   },
   {
     "id": 172,
     "timestamp": "2026-04-23T13:26:31.372+02:00",
     "level": "INFO",
     "pid": 24457,
-    "thread": "http-nio-8080",
+    "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 24
+    "response_time": 24
   },
   {
     "id": 173,
     "timestamp": "2026-04-23T13:26:31.372+02:00",
     "level": "INFO",
     "pid": 24457,
-    "thread": "http-nio-8080",
+    "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 24
+    "response_time": 24
   },
   {
     "id": 174,
@@ -1727,7 +1707,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 450
+    "response_time": 450
   },
   {
     "id": 175,
@@ -1737,7 +1717,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 66
+    "response_time": 66
   },
   {
     "id": 176,
@@ -1747,7 +1727,7 @@
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 70
+    "response_time": 70
   },
   {
     "id": 177,
@@ -1757,7 +1737,7 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 68
+    "response_time": 68
   },
   {
     "id": 178,
@@ -1767,17 +1747,17 @@
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 73
+    "response_time": 73
   },
   {
     "id": 179,
     "timestamp": "2026-05-08T20:32:00.314511+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 83
+    "response_time": 83
   },
   {
     "id": 180,
@@ -1787,7 +1767,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 71
+    "response_time": 71
   },
   {
     "id": 181,
@@ -1797,7 +1777,7 @@
     "thread": "pool-2-thread-10",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=249",
-    "responseTime": 92
+    "response_time": 92
   },
   {
     "id": 182,
@@ -1807,7 +1787,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 79
+    "response_time": 79
   },
   {
     "id": 183,
@@ -1817,7 +1797,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=44",
-    "responseTime": 50
+    "response_time": 50
   },
   {
     "id": 184,
@@ -1826,8 +1806,8 @@
     "pid": 32836,
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
-    "responseTime": 210
+    "message": "ERROR DatabaseException: could not execute",
+    "response_time": 210
   },
   {
     "id": 185,
@@ -1837,7 +1817,7 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL CHANGE orderId=77 from=CREATED to=PAID",
-    "responseTime": 18
+    "response_time": 18
   },
   {
     "id": 186,
@@ -1847,17 +1827,17 @@
     "thread": "pool-2-thread-5",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 88
+    "response_time": 88
   },
   {
     "id": 187,
     "timestamp": "2026-05-08T20:33:00.044812+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "SQL Error: 1054, SQLState: 28000",
-    "responseTime": 6
+    "message": "Cache refreshed",
+    "response_time": 6
   },
   {
     "id": 188,
@@ -1867,7 +1847,7 @@
     "thread": "pool-2-thread-7",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=199",
-    "responseTime": 64
+    "response_time": 64
   },
   {
     "id": 189,
@@ -1877,17 +1857,17 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=12",
-    "responseTime": 42
+    "response_time": 42
   },
   {
     "id": 190,
     "timestamp": "2026-05-08T20:33:30.033221+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 190
+    "response_time": 190
   },
   {
     "id": 191,
@@ -1897,7 +1877,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 31
+    "response_time": 31
   },
   {
     "id": 192,
@@ -1907,7 +1887,7 @@
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=349",
-    "responseTime": 60
+    "response_time": 60
   },
   {
     "id": 193,
@@ -1917,17 +1897,17 @@
     "thread": "pool-2-thread-10",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=91",
-    "responseTime": 52
+    "response_time": 52
   },
   {
     "id": 194,
     "timestamp": "2026-05-08T20:34:10.099112+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "NullPointerException in service layer",
-    "responseTime": 5
+    "message": "Cache refreshed",
+    "response_time": 5
   },
   {
     "id": 195,
@@ -1937,7 +1917,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 90
+    "response_time": 90
   },
   {
     "id": 196,
@@ -1947,7 +1927,7 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL SELECT products",
-    "responseTime": 14
+    "response_time": 14
   },
   {
     "id": 197,
@@ -1957,7 +1937,7 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 75
+    "response_time": 75
   },
   {
     "id": 198,
@@ -1967,7 +1947,7 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=insufficient_funds",
-    "responseTime": 220
+    "response_time": 220
   },
   {
     "id": 199,
@@ -1977,7 +1957,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=499",
-    "responseTime": 67
+    "response_time": 67
   },
   {
     "id": 200,
@@ -1987,7 +1967,7 @@
     "thread": "pool-2-thread-7",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=64",
-    "responseTime": 55
+    "response_time": 55
   },
   {
     "id": 201,
@@ -1997,17 +1977,17 @@
     "thread": "pool-2-thread-5",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL INSERT new order",
-    "responseTime": 16
+    "response_time": 16
   },
   {
     "id": 202,
     "timestamp": "2026-05-08T20:35:30.099221+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "OutOfMemoryError heap space",
-    "responseTime": 4
+    "message": "Cache refreshed",
+    "response_time": 4
   },
   {
     "id": 203,
@@ -2017,7 +1997,7 @@
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=159",
-    "responseTime": 62
+    "response_time": 62
   },
   {
     "id": 204,
@@ -2027,17 +2007,17 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=18",
-    "responseTime": 47
+    "response_time": 47
   },
   {
     "id": 205,
     "timestamp": "2026-05-08T20:36:00.088112+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=network_issue",
-    "responseTime": 250
+    "response_time": 250
   },
   {
     "id": 206,
@@ -2047,7 +2027,7 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 78
+    "response_time": 78
   },
   {
     "id": 207,
@@ -2057,17 +2037,17 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 34
+    "response_time": 34
   },
   {
     "id": 208,
     "timestamp": "2026-05-08T20:36:30.091112+02:00",
-    "level": "ERROR",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
-    "message": "SQL deadlock detected",
-    "responseTime": 7
+    "message": "Cache refreshed",
+    "response_time": 7
   },
   {
     "id": 209,
@@ -2077,7 +2057,7 @@
     "thread": "scheduling-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Starting service [Tomcat]",
-    "responseTime": 85
+    "response_time": 85
   },
   {
     "id": 100,
@@ -2087,7 +2067,7 @@
     "thread": "pool-2-thread-7",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=299",
-    "responseTime": 69
+    "response_time": 69
   },
   {
     "id": 210,
@@ -2097,17 +2077,17 @@
     "thread": "pool-2-thread-5",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=27",
-    "responseTime": 51
+    "response_time": 51
   },
   {
     "id": 211,
     "timestamp": "2026-05-08T20:37:10.011221+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=timeout",
-    "responseTime": 230
+    "response_time": 230
   },
   {
     "id": 213,
@@ -2117,7 +2097,7 @@
     "thread": "pool-2-thread-3",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "SQL DELETE order",
-    "responseTime": 19
+    "response_time": 19
   },
   {
     "id": 214,
@@ -2127,7 +2107,7 @@
     "thread": "pool-2-thread-8",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User request processed successfully",
-    "responseTime": 82
+    "response_time": 82
   },
   {
     "id": 215,
@@ -2137,7 +2117,7 @@
     "thread": "pool-2-thread-1",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=399",
-    "responseTime": 6
+    "response_time": 6
   },
   {
     "id": 216,
@@ -2147,7 +2127,7 @@
     "thread": "pool-2-thread-6",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_succeeded amount=399",
-    "responseTime": 63
+    "response_time": 63
   },
   {
     "id": 217,
@@ -2157,7 +2137,7 @@
     "thread": "pool-2-thread-4",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "User_login userId=10",
-    "responseTime": 54
+    "response_time": 54
   },
   {
     "id": 218,
@@ -2167,17 +2147,17 @@
     "thread": "pool-2-thread-2",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Cache refreshed",
-    "responseTime": 29
+    "response_time": 29
   },
   {
     "id": 219,
     "timestamp": "2026-05-08T20:38:20.066111+02:00",
-    "level": "WARN",
+    "level": "INFO",
     "pid": 32836,
     "thread": "pool-2-thread-9",
     "logger": "org.example.loganomaly.service.LogGeneratorService",
     "message": "Payment_failed reason=card_declined",
-    "responseTime": 240
+    "response_time": 240
   },
     
   {
@@ -2188,7 +2168,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User_login userId=12",
-  "responseTime": 45
+  "response_time": 45
   },
   {
   "id": 221,
@@ -2198,17 +2178,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL UPDATE order status=PAID",
-  "responseTime": 18
+  "response_time": 18
   },
   {
   "id": 222,
   "timestamp": "2026-05-08T20:39:20.019991+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=timeout",
-  "responseTime": 310
+  "response_time": 310
   },
   {
   "id": 223,
@@ -2218,7 +2198,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 61
+  "response_time": 61
   },
   {
   "id": 224,
@@ -2228,17 +2208,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 22
+  "response_time": 22
   },
   {
   "id": 225,
   "timestamp": "2026-05-08T20:39:50.067221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
-  "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
-  "responseTime": 275
+    "message": "Cache refreshed",
+  "response_time": 275
   },
   {
   "id": 226,
@@ -2248,7 +2228,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL SELECT order details",
-  "responseTime": 14
+  "response_time": 14
   },
   {
   "id": 227,
@@ -2258,7 +2238,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User_login userId=88",
-  "responseTime": 39
+  "response_time": 39
   },
   {
   "id": 228,
@@ -2268,7 +2248,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_succeeded amount=199",
-  "responseTime": 52
+  "response_time": 52
   },
   {
   "id": 229,
@@ -2278,7 +2258,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=network_error",
-  "responseTime": 420
+  "response_time": 420
   },
   {
   "id": 230,
@@ -2288,7 +2268,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 73
+  "response_time": 73
   },
   {
   "id": 231,
@@ -2298,7 +2278,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 21
+  "response_time": 21
   },
   {
   "id": 232,
@@ -2308,17 +2288,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL INSERT order created",
-  "responseTime": 19
+  "response_time": 19
   },
   {
   "id": 233,
   "timestamp": "2026-05-08T20:41:10.077221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=timeout",
-  "responseTime": 390
+  "response_time": 390
   },
   {
   "id": 234,
@@ -2328,7 +2308,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User_login userId=33",
-  "responseTime": 48
+  "response_time": 48
   },
   {
   "id": 235,
@@ -2338,7 +2318,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL UPDATE order status=SHIPPED",
-  "responseTime": 17
+  "response_time": 17
   },
   {
   "id": 236,
@@ -2348,17 +2328,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 66
+  "response_time": 66
   },
   {
   "id": 237,
   "timestamp": "2026-05-08T20:41:50.044221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=card_declined",
-  "responseTime": 280
+  "response_time": 280
   },
   {
   "id": 238,
@@ -2368,7 +2348,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 25
+  "response_time": 25
   },
   {
   "id": 239,
@@ -2378,7 +2358,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL SELECT user profile",
-  "responseTime": 16
+  "response_time": 16
   },
   {
   "id": 240,
@@ -2388,17 +2368,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_succeeded amount=499",
-  "responseTime": 58
+  "response_time": 58
   },
   {
   "id": 241,
   "timestamp": "2026-05-08T20:42:30.033221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=timeout",
-  "responseTime": 410
+  "response_time": 410
   },
   {
   "id": 242,
@@ -2408,7 +2388,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 70
+  "response_time": 70
   },
   {
   "id": 243,
@@ -2418,7 +2398,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL DELETE order",
-  "responseTime": 20
+  "response_time": 20
   },
   {
   "id": 244,
@@ -2428,17 +2408,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 23
+  "response_time": 23
   },
   {
   "id": 245,
   "timestamp": "2026-05-08T20:43:10.013221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=network_error",
-  "responseTime": 360
+  "response_time": 360
   },
   {
   "id": 246,
@@ -2448,7 +2428,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User_login userId=77",
-  "responseTime": 44
+  "response_time": 44
   },
   {
   "id": 247,
@@ -2458,7 +2438,7 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "SQL UPDATE order status=PAID",
-  "responseTime": 15
+  "response_time": 15
   },
   {
   "id": 248,
@@ -2468,17 +2448,17 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_succeeded amount=99",
-  "responseTime": 55
+  "response_time": 55
   },
   {
   "id": 249,
   "timestamp": "2026-05-08T20:43:50.017221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "Payment_failed reason=card_declined",
-  "responseTime": 295
+  "response_time": 295
   },
   {
   "id": 250,
@@ -2488,7 +2468,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT orders",
-  "responseTime": 12
+  "response_time": 12
   },
   {
   "id": 251,
@@ -2498,17 +2478,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=41",
-  "responseTime": 49
+  "response_time": 49
   },
   {
   "id": 252,
   "timestamp": "2026-05-08T20:44:30.023221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=timeout",
-  "responseTime": 280
+  "response_time": 280
   },
   {
   "id": 253,
@@ -2518,7 +2498,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 21
+  "response_time": 21
   },
   {
   "id": 254,
@@ -2528,7 +2508,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL UPDATE order status=PAID",
-  "responseTime": 16
+  "response_time": 16
   },
   {
   "id": 255,
@@ -2538,17 +2518,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 63
+  "response_time": 63
   },
   {
   "id": 256,
   "timestamp": "2026-05-08T20:45:10.031221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=network_issue",
-  "responseTime": 310
+  "response_time": 310
   },
   {
   "id": 257,
@@ -2558,7 +2538,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT users",
-  "responseTime": 10
+  "response_time": 10
   },
   {
   "id": 258,
@@ -2568,7 +2548,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_succeeded amount=199",
-  "responseTime": 55
+  "response_time": 55
   },
   {
   "id": 259,
@@ -2578,7 +2558,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=77",
-  "responseTime": 47
+  "response_time": 47
   },
   {
   "id": 260,
@@ -2588,7 +2568,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL INSERT order created",
-  "responseTime": 18
+  "response_time": 18
   },
   {
   "id": 261,
@@ -2598,17 +2578,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 22
+  "response_time": 22
   },
   {
   "id": 262,
   "timestamp": "2026-05-08T20:46:10.043221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
-  "message": "ERROR DatabaseException: could not execute query; SQL [SELECT id, username, email FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'secret']nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement;",
-  "responseTime": 295
+  "message": "Cache refreshed",
+  "response_time": 295
   },
   {
   "id": 263,
@@ -2618,7 +2598,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT products",
-  "responseTime": 13
+  "response_time": 13
   },
   {
   "id": 264,
@@ -2628,7 +2608,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 71
+  "response_time": 71
   },
   {
   "id": 265,
@@ -2638,17 +2618,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_succeeded amount=99",
-  "responseTime": 58
+  "response_time": 58
   },
   {
   "id": 266,
   "timestamp": "2026-05-08T20:46:50.051221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=card_declined",
-  "responseTime": 320
+  "response_time": 320
   },
   {
   "id": 267,
@@ -2658,7 +2638,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL UPDATE order status=SHIPPED",
-  "responseTime": 15
+  "response_time": 15
   },
   {
   "id": 268,
@@ -2668,7 +2648,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=19",
-  "responseTime": 44
+  "response_time": 44
   },
   {
   "id": 269,
@@ -2678,7 +2658,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 20
+  "response_time": 20
   },
   {
   "id": 270,
@@ -2688,7 +2668,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL constraint violation",
-  "responseTime": 8
+  "response_time": 8
   },
   {
   "id": 271,
@@ -2698,7 +2678,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT orders",
-  "responseTime": 11
+  "response_time": 11
   },
   {
   "id": 272,
@@ -2708,17 +2688,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 69
+  "response_time": 69
   },
   {
   "id": 273,
   "timestamp": "2026-05-08T20:48:00.065221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=timeout",
-  "responseTime": 340
+  "response_time": 340
   },
   {
   "id": 274,
@@ -2728,7 +2708,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL DELETE order",
-  "responseTime": 17
+  "response_time": 17
   },
   {
   "id": 275,
@@ -2738,7 +2718,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_succeeded amount=249",
-  "responseTime": 60
+  "response_time": 60
   },
   {
   "id": 276,
@@ -2748,7 +2728,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=91",
-  "responseTime": 48
+  "response_time": 48
   },
   {
   "id": 277,
@@ -2758,7 +2738,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 23
+  "response_time": 23
   },
   {
   "id": 278,
@@ -2768,7 +2748,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=network_issue",
-  "responseTime": 310
+  "response_time": 310
   },
   {
   "id": 279,
@@ -2778,7 +2758,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT users",
-  "responseTime": 12
+  "response_time": 12
   },
   {
   "id": 280,
@@ -2788,7 +2768,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 66
+  "response_time": 66
   },
   {
   "id": 281,
@@ -2798,7 +2778,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_succeeded amount=149",
-  "responseTime": 57
+  "response_time": 57
   },
   {
   "id": 282,
@@ -2808,7 +2788,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Database connection failed",
-  "responseTime": 9
+  "response_time": 9
   },
   {
   "id": 283,
@@ -2818,7 +2798,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL UPDATE order status=PAID",
-  "responseTime": 15
+  "response_time": 15
   },
   {
   "id": 284,
@@ -2828,7 +2808,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=55",
-  "responseTime": 46
+  "response_time": 46
   },
   {
   "id": 285,
@@ -2838,7 +2818,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 21
+  "response_time": 21
   },
   {
   "id": 286,
@@ -2848,7 +2828,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT products",
-  "responseTime": 13
+  "response_time": 13
   },
   {
   "id": 287,
@@ -2858,17 +2838,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 70
+  "response_time": 70
   },
   {
   "id": 288,
   "timestamp": "2026-05-08T20:50:30.095221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=timeout",
-  "responseTime": 330
+  "response_time": 330
   },
   {
   "id": 289,
@@ -2878,7 +2858,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL DELETE order",
-  "responseTime": 18
+  "response_time": 18
   },
   {
   "id": 290,
@@ -2888,7 +2868,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_succeeded amount=399",
-  "responseTime": 59
+  "response_time": 59
   },
   {
   "id": 291,
@@ -2898,7 +2878,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=11",
-  "responseTime": 45
+  "response_time": 45
   },
   {
   "id": 292,
@@ -2908,7 +2888,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 20
+  "response_time": 20
   },
   {
   "id": 293,
@@ -2918,7 +2898,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL SELECT orders",
-  "responseTime": 12
+  "response_time": 12
   },
   {
   "id": 294,
@@ -2928,17 +2908,17 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 67
+  "response_time": 67
   },
   {
   "id": 295,
   "timestamp": "2026-05-08T20:51:40.109221+02:00",
-  "level": "WARN",
+  "level": "INFO",
   "pid": 32836,
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Payment_failed reason=card_declined",
-  "responseTime": 300
+  "response_time": 300
   },
   {
   "id": 296,
@@ -2948,7 +2928,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "SQL INSERT order created",
-  "responseTime": 19
+  "response_time": 19
   },
   {
   "id": 297,
@@ -2958,7 +2938,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User_login userId=66",
-  "responseTime": 50
+  "response_time": 50
   },
   {
   "id": 298,
@@ -2968,7 +2948,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "Cache refreshed",
-  "responseTime": 22
+  "response_time": 22
   },
   {
   "id": 299,
@@ -2978,7 +2958,7 @@
   "thread": "scheduling-1",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 65
+  "response_time": 65
   }, 
   {
   "id": 300,
@@ -2988,6 +2968,6 @@
   "thread": "scheduling-1",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User request processed successfully",
-  "responseTime": 68
+  "response_time": 68
   }
 ]
