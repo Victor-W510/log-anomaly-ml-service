@@ -4,6 +4,7 @@ from feature_engineering import feature_engineering
 import joblib
 import time
 import os
+import pandas as pd
 import numpy as np
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -59,7 +60,8 @@ while True:
             time.sleep(60)
             continue
 
-        x = feature_engineering(logs)
+        df = pd.DataFrame(logs)
+        x = feature_engineering(df)
         x = x.reindex(columns=columns_saved,fill_value=0)
         predictions = model.predict(x)
 
@@ -78,7 +80,7 @@ while True:
                 (
                     f"Log ID: {i['id']}\n"
                     f"Level: {i['level']}\n"
-                    f"Response Time: {i['responseTime']} ms\n"
+                    f"Response Time: {i['response_time']} ms\n"
                     f"Message: {i['message']}"
                 )
                 for i in anomaly

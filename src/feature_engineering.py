@@ -24,7 +24,7 @@ def feature_engineering(logs):
 
     df["thread"] = df["thread"].apply(map_thread)
 
-    df["responseTime"] = pd.to_numeric(df["responseTime"],errors="coerce").fillna(0)
+    df["response_time"] = pd.to_numeric(df["response_time"],errors="coerce").fillna(0)
 
     level_dummies = pd.get_dummies(df["level"].str.strip())
     thread_dummies = pd.get_dummies(df["thread"])
@@ -32,7 +32,7 @@ def feature_engineering(logs):
     features = pd.concat([
         level_dummies,
         thread_dummies,
-        df[[ "message_length", "hour", "responseTime"]] 
+        df[[ "message_length", "hour", "response_time"]] 
     ], axis=1)
 
     return features
