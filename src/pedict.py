@@ -15,24 +15,26 @@ columns_saved = joblib.load(columns_path)
 
 rates = []
 last_alert_time = 0
-ALERT_COOLDOWN = 60 
+ALERT_COOLDOWN = 30 
 
 def calculate_z (length): 
-    rates.append(length)
+    z_score = 0
+
+    if len(rates) > 2: 
+        arr = np.array(rates, dtype=np.float64)
+
+        avg = np.mean(arr)
+        std_rate = np.std(arr)
+
+        if std_rate > 0:
+            z_score = (length - avg) / std_rate
+
+    if z_score < 2: 
+        rates.append(length)
 
     if len(rates) > 50:
         rates.pop(0)
 
-    arr = np.array(rates, dtype=np.float64)
-
-    avg = np.mean(arr)
-    std_rate = np.std(arr)
-
-    if std_rate > 0:
-        z_score = (length - avg) / std_rate
-    else:
-        z_score = 0
-    
     return z_score
 
 
@@ -40,7 +42,6 @@ def check_overload(z_score):
     global last_alert_time
     current_time = time.time()
 
-    #so that we do not get to many alerts 
     if (
         len(rates) >= 10 and 
         z_score > 3 and 
@@ -76,19 +77,18 @@ while True:
         ]
 
         if anomaly:
-            messages = "\n\n".join(
-                (
-                    f"Log ID: {i['id']}\n"
-                    f"Level: {i['level']}\n"
+            for i in anomaly:
+                message = (
+                    f"**Anomaly Detected**\n"
+                    f"ID: {i['id']} - "
+                    f"Level: {i['level']} - "
                     f"Response Time: {i['response_time']} ms\n"
                     f"Message: {i['message']}"
                 )
-                for i in anomaly
-            )
 
-            send_anomaly_alert(
-                f"{len(anomaly)} anomalies detected:\n{messages}"
-            )
+                send_anomaly_alert(message)
+
+
 
         all_ids = [log["id"] for log in logs]
         mark_as_processed(connection, all_ids)
