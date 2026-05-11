@@ -2952,10 +2952,10 @@
   },
   {
   "id": 299,
-  "timestamp": "2026-05-08T20:52:20.117221+02:00",
+  "timestamp": "2026-05-08T19:52:20.117221+02:00",
   "level": "INFO",
   "pid": 32836,
-  "thread": "scheduling-1",
+  "thread": "pool-2-thread-x",
   "logger": "o.e.l.service.LogGeneratorService",
   "message": "User request processed successfully",
   "response_time": 65
@@ -2965,9 +2965,140 @@
   "timestamp": "2026-05-08T20:44:00.018221+02:00",
   "level": "INFO",
   "pid": 32836,
-  "thread": "scheduling-1",
+  "thread": "pool-2-thread-x",
   "logger": "org.example.loganomaly.service.LogGeneratorService",
   "message": "User request processed successfully",
   "response_time": 68
+  }, 
+  {
+  "id": 301,
+  "timestamp": "2026-05-08T10:52:20.117221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "pool-2-thread-x",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "response_time": 3
+  }, 
+  {
+  "id": 302,
+  "timestamp": "2026-05-08T10:52:20.117221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "pool-2-thread-x",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "response_time": 8
+  }, 
+  {
+  "id": 303,
+  "timestamp": "2026-05-08T10:52:20.117221+02:00",
+  "level": "INFO",
+  "pid": 32836,
+  "thread": "pool-2-thread-x",
+  "logger": "o.e.l.service.LogGeneratorService",
+  "message": "User request processed successfully",
+  "response_time": 5
+  },
+  {
+    "id": 304,
+    "timestamp": "2026-05-08T10:53:01.143221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-1",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 17
+  },
+  {
+    "id": 305,
+    "timestamp": "2026-05-08T10:53:14.482221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-2",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 42
+  },
+  {
+    "id": 306,
+    "timestamp": "2026-05-08T10:53:29.913221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-3",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 88
+  },
+  {
+    "id": 307,
+    "timestamp": "2026-05-08T10:53:44.205221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-4",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 23
+  },
+  {
+    "id": 308,
+    "timestamp": "2026-05-08T10:54:02.117221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-5",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 61
+  },
+  {
+    "id": 309,
+    "timestamp": "2026-05-08T10:54:16.771221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-6",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 134
+  },
+  {
+    "id": 310,
+    "timestamp": "2026-05-08T10:54:33.908221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-7",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 49
+  },
+  {
+    "id": 311,
+    "timestamp": "2026-05-08T10:54:48.314221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-8",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 97
+  },
+  {
+    "id": 312,
+    "timestamp": "2026-05-08T10:55:03.662221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-9",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 12
+  },
+  {
+    "id": 313,
+    "timestamp": "2026-05-08T10:55:19.117221+02:00",
+    "level": "INFO",
+    "pid": 32836,
+    "thread": "pool-2-thread-10",
+    "logger": "o.e.l.service.LogGeneratorService",
+    "message": "User request processed successfully",
+    "response_time": 176
   }
+
 ]
