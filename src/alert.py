@@ -9,14 +9,14 @@ WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 def send_anomaly_alert(message):
     data = {
-        "content":  "❗️ " + message
+        "content":  "⚠️" + message
     }
     requests.post(WEBHOOK_URL, json=data)
 
 
 def send_overload_alert():
     data = {
-        "content": "📈 Overload detected!"
+        "content": "📈 Unusual server activity detected!"
     }
     requests.post(WEBHOOK_URL, json=data)
 
